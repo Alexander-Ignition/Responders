@@ -13,6 +13,7 @@
 		1177996A1D4A052C00A59F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117799691D4A052C00A59F12 /* Assets.xcassets */; };
 		1177996D1D4A052C00A59F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1177996B1D4A052C00A59F12 /* LaunchScreen.storyboard */; };
 		117799781D4A052D00A59F12 /* RespondersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117799771D4A052D00A59F12 /* RespondersTests.swift */; };
+		117799831D4A0A5700A59F12 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117799821D4A0A5700A59F12 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		117799731D4A052C00A59F12 /* RespondersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RespondersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		117799771D4A052D00A59F12 /* RespondersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondersTests.swift; sourceTree = "<group>"; };
 		117799791D4A052D00A59F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117799821D4A0A5700A59F12 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				117799621D4A052C00A59F12 /* AppDelegate.swift */,
 				117799641D4A052C00A59F12 /* ViewController.swift */,
+				117799821D4A0A5700A59F12 /* RedViewController.swift */,
 				117799661D4A052C00A59F12 /* Main.storyboard */,
 				117799691D4A052C00A59F12 /* Assets.xcassets */,
 				1177996B1D4A052C00A59F12 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				117799651D4A052C00A59F12 /* ViewController.swift in Sources */,
+				117799831D4A0A5700A59F12 /* RedViewController.swift in Sources */,
 				117799631D4A052C00A59F12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +392,7 @@
 				1177997E1D4A052D00A59F12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1177997F1D4A052D00A59F12 /* Build configuration list for PBXNativeTarget "RespondersTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				117799811D4A052D00A59F12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

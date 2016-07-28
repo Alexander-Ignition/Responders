@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RedViewController.swift
 //  Responders
 //
 //  Created by Alexander on 28.07.16.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    @IBAction func unwindSegue(sender: UIStoryboardSegue) {
+class RedViewController: UIViewController {
+
+    @IBAction func unwindToRedSegue(sender: UIStoryboardSegue) {
         print(#function)
     }
 
 }
-
